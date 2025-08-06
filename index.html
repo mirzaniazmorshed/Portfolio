@@ -19,364 +19,266 @@
     <div class="max-w-[1280px] m-auto">
 
         <!-- Navbar -->
-        <nav class="bg-gray-400 sm:bg-black flex justify-between items-center p-4 relative">
-            <div class="text-xl font-bold">Mirza</div>
-            <div>
-                <div class="sm:flex gap-6 sm:items-center bg-gray-400 sm:bg-black flex-col sm:flex-row hidden absolute sm:static top-14 left-0 right-0 p-4 sm:p-0" id="menu">
-                    <a href="#home" class="hover:text-blue-500 block">Home</a>
-                    <a href="#about" class="hover:text-blue-500 block">About Me</a>
-                    <a href="#projects" class="hover:text-blue-500 block">Projects</a>
-                    <a href="#testimonials" class="hover:text-blue-500 block">Testimonials</a>
-                    <a href="https://linkedin.com/in/mirzaniazmorshed"
-                        target="_blank"
-                        class="text-white-600 border border-gray-600 px-4 py-2 rounded-lg hover:bg-blue-100 hover:text-blue-800 transition block">
-                        Download CV
-                    </a>
-                </div>
-                <button id="mbl-btn"><i class="fas fa-bars block sm:hidden" id="toggler"></i></button>
-            </div>
-
-        </nav>
-
-        <!-- About Section -->
-        <section id="about" class="flex flex-wrap items-center py-20 pb-10 px-4">
-            <div class="w-full md:w-1/2 px-5">
-                <h4 class="text-white-500 text-lg font-semibold">Full-Stack Developer</h4>
-                <h1 class="text-white-600 text-4xl font-extrabold mt-3">Hi, I'm Niaz Morshed</h1>
-                <p class="mt-4 text-gray-300 text-xl leading-relaxed">
-                    I am a passionate Full-Stack Developer specializing in Python, Django, PostgreSQL, JavaScript, HTML,
-                    CSS, Bootstrap, and Tailwind CSS.
-                    I create seamless, scalable, and user-friendly web applications, taking your ideas from concept to
-                    reality.
-                </p>
-                <div class="flex gap-4 mt-6">
-                    <a href="https://linkedin.com/in/mirzaniazmorshed" target="_blank" class="block">
-                        <button class="bg-gray-500 px-6 py-2 rounded-lg text-white hover:bg-blue-600 transition">
-                            Let's Connect
-                        </button>
-                    </a>
-                    <a href="https://github.com/mirzaniazmorshed" target="_blank" class="block">
-                        <button class="bg-gray-500 px-6 py-2 rounded-lg text-white hover:bg-green-600 transition">
-                            View Portfolio
-                        </button>
-                    </a>
-                </div>                
-            </div>
-
-            <div class="w-full md:w-1/2 px-5 mt-2 sm:mt-0">
-                <img src="niaz.jpg" alt="Person" class="rounded-lg mx-auto w-50">
-            </div>
-        </section>
-
-
-        <!-- Specialities Section -->
-        <section id="specialities" class="py-20 pb-10 bg-black text-center px-4">
-            <h2 class="text-3xl font-bold text-white">My Specialities</h2>
-            <p class="mt-3 text-gray-400">I specialize in various fields to deliver quality results.</p>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-10">
-                <!-- Card 1: Front End Development -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">🌐</div> <!-- Front-End Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Front-End Development</h3>
-                    <p class="mt-3 text-gray-300">I specialize in creating beautiful and responsive user interfaces with
-                        HTML, CSS, and JavaScript.</p>
-                </div>
-
-                <!-- Card 2: Back End Development -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">⚙️</div> <!-- Back-End Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Back-End Development</h3>
-                    <p class="mt-3 text-gray-300">I have expertise in server-side development, working with Node.js,
-                        Python, and databases like MySQL and MongoDB.</p>
-                </div>
-
-                <!-- Card 3: UI/UX Design -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">🎨</div> <!-- UI/UX Design Emoji -->
-                    <h3 class="text-xl font-semibold text-white">UI/UX Design</h3>
-                    <p class="mt-3 text-gray-300">I create user-centered designs, focusing on creating intuitive and
-                        engaging experiences for web and mobile apps.</p>
-                </div>
-
-                <!-- Card 4: Web Performance Optimization -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">🚀</div> <!-- Performance Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Web Performance Optimization</h3>
-                    <p class="mt-3 text-gray-300">I optimize websites for faster load times and better performance,
-                        ensuring an excellent user experience.</p>
-                </div>
-
-                <!-- Card 5: SEO Optimization -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">🔍</div> <!-- SEO Emoji -->
-                    <h3 class="text-xl font-semibold text-white">SEO Optimization</h3>
-                    <p class="mt-3 text-gray-300">I help websites rank higher on search engines through effective SEO
-                        techniques and strategies.</p>
-                </div>
-
-                <!-- Card 6: E-commerce Development -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">🛒</div> <!-- E-commerce Emoji -->
-                    <h3 class="text-xl font-semibold text-white">E-commerce Development</h3>
-                    <p class="mt-3 text-gray-300">I build powerful e-commerce platforms that drive sales and offer
-                        seamless shopping experiences for customers.</p>
-                </div>
-
-                <!-- Card 7: Mobile App Development -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">📱</div> <!-- Mobile App Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Mobile App Development</h3>
-                    <p class="mt-3 text-gray-300">I develop cross-platform mobile apps using frameworks like React
-                        Native and Flutter for smooth user experiences.</p>
-                </div>
-
-                <!-- Card 8: Cloud Solutions -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">☁️</div> <!-- Cloud Solutions Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Cloud Solutions</h3>
-                    <p class="mt-3 text-gray-300">I provide cloud-based solutions, helping businesses scale with
-                        reliable cloud infrastructure and services.</p>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Recent Works Section -->
-        <section id="recent-works" class="py-20 pb-10 bg-black text-center px-4">    
-            <h2 class="text-3xl font-bold text-white">Recent Works</h2>
-            <p class="mt-3 text-gray-400">Explore some of my latest projects showcasing my skills and creativity.</p>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6 mt-10">
-                <!-- Work 1 -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <h3 class="text-xl font-semibold text-white">Moneta FLow</h3>
-                    <p class="mt-3 text-gray-300">Brief description of the project highlighting key features or
-                        objectives.</p>
-                </div>
-                <!-- Work 2 -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <h3 class="text-xl font-semibold text-white">Haus Of Books</h3>
-                    <p class="mt-3 text-gray-300">Brief description of the project highlighting key features or
-                        objectives.</p>
-                </div>
-                <!-- Work 3 -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <h3 class="text-xl font-semibold text-white">Car Sphere</h3>
-                    <p class="mt-3 text-gray-300">Brief description of the project highlighting key features or
-                        objectives.</p>
-                </div>
-                <!-- Work 4 -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <h3 class="text-xl font-semibold text-white">Meal Search</h3>
-                    <p class="mt-3 text-gray-300">Brief description of the project highlighting key features or
-                        objectives.</p>
-                </div>
-                <!-- Work 5 -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <h3 class="text-xl font-semibold text-white">Musicians Directory</h3>
-                    <p class="mt-3 text-gray-300">Brief description of the project highlighting key features or
-                        objectives.</p>
-                </div>
-                <!-- Work 6 -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <h3 class="text-xl font-semibold text-white">Life Care</h3>
-                    <p class="mt-3 text-gray-300">Brief description of the project highlighting key features or
-                        objectives.</p>
-                </div>
-            </div>
-        </section>
-
-
-        <!-- Other Services Section -->
-        <section id="other-services" class="py-20 pt-6 pb-10 bg-black text-center px-4">
-            <h2 class="text-3xl font-bold text-white">My Other Services</h2>
-            <p class="mt-3 text-gray-400">I offer various services to cater to your needs.</p>
-            <div class="grid grid-cols-1 md:grid-cols-4 gap-6 mt-10">
-                <!-- Card 1: Content Writing -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">✍️</div> <!-- Content Writing Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Content Writing</h3>
-                    <p class="mt-3 text-gray-300">I create compelling and engaging content for blogs, articles, and
-                        websites.</p>
-                </div>
-
-                <!-- Card 2: Graphic Design -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">🖌️</div> <!-- Graphic Design Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Graphic Design</h3>
-                    <p class="mt-3 text-gray-300">I design eye-catching graphics and visuals for branding and marketing
-                        purposes.</p>
-                </div>
-
-                <!-- Card 3: Video Editing -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">🎥</div> <!-- Video Editing Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Video Editing</h3>
-                    <p class="mt-3 text-gray-300">I edit and produce professional-quality videos for promotional and
-                        personal projects.</p>
-                </div>
-
-                <!-- Card 4: Digital Marketing -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">📈</div> <!-- Digital Marketing Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Digital Marketing</h3>
-                    <p class="mt-3 text-gray-300">I craft strategies to enhance online presence and grow your audience.
-                    </p>
-                </div>
-
-                <!-- Card 5: Social Media Management -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">📱</div> <!-- Social Media Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Social Media Management</h3>
-                    <p class="mt-3 text-gray-300">I manage social media accounts to boost engagement and brand
-                        visibility.</p>
-                </div>
-
-                <!-- Card 6: Translation Services -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">🌍</div> <!-- Translation Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Translation Services</h3>
-                    <p class="mt-3 text-gray-300">I offer accurate translations across multiple languages for various
-                        documents.</p>
-                </div>
-
-                <!-- Card 7: IT Support -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">🛠️</div> <!-- IT Support Emoji -->
-                    <h3 class="text-xl font-semibold text-white">IT Support</h3>
-                    <p class="mt-3 text-gray-300">I provide technical support to resolve IT-related issues and maintain
-                        systems.</p>
-                </div>
-
-                <!-- Card 8: Photography -->
-                <div class="bg-black p-5 rounded-lg border border-gray-700">
-                    <div class="text-4xl mb-3">📸</div> <!-- Photography Emoji -->
-                    <h3 class="text-xl font-semibold text-white">Photography</h3>
-                    <p class="mt-3 text-gray-300">I capture stunning photos for events, products, and personal projects.
-                    </p>
-                </div>
-            </div>
-        </section>
-
-        <!-- FAQ Section -->
-        <section id="faq" class="py-20 pb-8 px-4">
-            <h2 class="text-3xl font-bold text-center">Frequently Asked Questions</h2>
-            <div class="mt-10 space-y-6 max-w-3xl mx-auto">
-                <details class="bg-gray-800 p-5 rounded-lg">
-                    <summary>What services do you offer?</summary>
-                    <p class="mt-3">I offer full stack web development, content writing and more.</p>
-                </details>
-                <details class="bg-gray-800 p-5 rounded-lg">
-                    <summary>How can I contact you?</summary>
-                    <p class="mt-3">You can contact me via email or social media.</p>
-                </details>
-                <details class="bg-gray-800 p-5 rounded-lg">
-                    <summary>What is your experience level?</summary>
-                    <p class="mt-3">I have years of experience in web development.</p>
-                </details>
-                <details class="bg-gray-800 p-5 rounded-lg">
-                    <summary>Do you offer support after project delivery?</summary>
-                    <p class="mt-3">Yes, I provide post-delivery support.</p>
-                </details>
-                <details class="bg-gray-800 p-5 rounded-lg">
-                    <summary>What technologies do you use?</summary>
-                    <p class="mt-3">I use Python, Django, HTML, CSS, JavaScript, Tailwind, and more.</p>
-                </details>
-            </div>
-        </section>
-        <!-- Our network section  -->
-        <section id="network" class="py-20 bg-black text-center px-4 pb-10 md:px-20 lg:px-32">
-            <h2 class="text-3xl font-bold text-white">Collaborative Ecosystem</h2>
-            <p class="mt-3 text-gray-400">Explore the diverse network that drives our success.</p>
-            <div class="mt-10">
-                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-8 justify-items-center">
-                    <!-- Column 1: Solutions -->
-                    <div>
-                        <h3 class="text-xl font-semibold text-white mb-4">Solutions</h3>
-                        <ul class="space-y-3 text-gray-300 text-center">
-                            <li><a href="#" class="hover:text-white">Solution 1</a></li>
-                            <li><a href="#" class="hover:text-white">Solution 2</a></li>
-                            <li><a href="#" class="hover:text-white">Solution 3</a></li>
-                            <li><a href="#" class="hover:text-white">Solution 4</a></li>
-                        </ul>
-                    </div>
-        
-                    <!-- Column 2: Customers -->
-                    <div>
-                        <h3 class="text-xl font-semibold text-white mb-4">Customers</h3>
-                        <ul class="space-y-3 text-gray-300 text-center">
-                            <li><a href="#" class="hover:text-white">Customer 1</a></li>
-                            <li><a href="#" class="hover:text-white">Customer 2</a></li>
-                            <li><a href="#" class="hover:text-white">Customer 3</a></li>
-                            <li><a href="#" class="hover:text-white">Customer 4</a></li>
-                        </ul>
-                    </div>
-        
-                    <!-- Column 3: Partners -->
-                    <div>
-                        <h3 class="text-xl font-semibold text-white mb-4">Partners</h3>
-                        <ul class="space-y-3 text-gray-300 text-center">
-                            <li><a href="#" class="hover:text-white">Partner 1</a></li>
-                            <li><a href="#" class="hover:text-white">Partner 2</a></li>
-                            <li><a href="#" class="hover:text-white">Partner 3</a></li>
-                            <li><a href="#" class="hover:text-white">Partner 4</a></li>
-                        </ul>
-                    </div>
-        
-                    <!-- Column 4: Stakeholders -->
-                    <div>
-                        <h3 class="text-xl font-semibold text-white mb-4">Stakeholders</h3>
-                        <ul class="space-y-3 text-gray-300 text-center">
-                            <li><a href="#" class="hover:text-white">Stakeholder 1</a></li>
-                            <li><a href="#" class="hover:text-white">Stakeholder 2</a></li>
-                            <li><a href="#" class="hover:text-white">Stakeholder 3</a></li>
-                            <li><a href="#" class="hover:text-white">Stakeholder 4</a></li>
-                        </ul>
-                    </div>
-        
-                    <!-- Column 5: Offerings -->
-                    <div>
-                        <h3 class="text-xl font-semibold text-white mb-4">Offerings</h3>
-                        <ul class="space-y-3 text-gray-300 text-center">
-                            <li><a href="#" class="hover:text-white">Offering 1</a></li>
-                            <li><a href="#" class="hover:text-white">Offering 2</a></li>
-                            <li><a href="#" class="hover:text-white">Offering 3</a></li>
-                            <li><a href="#" class="hover:text-white">Offering 4</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </section>
-        
-        <!-- Footer -->
-<footer class="flex flex-col sm:flex-row justify-between items-center py-5 border-t border-gray-700 px-4 space-y-4 sm:space-y-0">
-    <!-- Left Section: Policy Links -->
-    <div class="text-gray-400 text-center sm:text-left">
-        <a href="#" class="hover:text-white">Terms and Conditions</a>
-        <span class="hidden sm:inline">|</span>
-        <br class="sm:hidden" />
-        <a href="#" class="hover:text-white">Privacy Policy</a>
-    </div>
-
-    <!-- Right Section: Social Media Links -->
-    <div class="flex flex-col sm:flex-row items-center space-y-2 sm:space-y-0 sm:space-x-4 text-center">
-        <div class="flex space-x-4">
-            <a href="https://github.com/mirzaniazmorshed" target="_blank" class="text-gray-400 hover:text-white">
-                <i class="fab fa-github"></i> GitHub
-            </a>
-            <a href="https://linkedin.com/in/mirzaniazmorshed" target="_blank" class="text-gray-400 hover:text-white">
-                <i class="fab fa-linkedin"></i> LinkedIn
-            </a>
-            <a href="https://facebook.com/mirzaniazmorshed" target="_blank" class="text-gray-400 hover:text-white">
-                <i class="fab fa-facebook"></i> Facebook
+<nav class="bg-gray-400 sm:bg-black flex justify-between items-center p-4 relative">
+    <div class="text-xl font-bold">Mirza</div>
+    <div>
+        <div
+            class="sm:flex gap-6 sm:items-center bg-gray-400 sm:bg-black flex-col sm:flex-row hidden absolute sm:static top-14 left-0 right-0 p-4 sm:p-0"
+            id="menu"
+        >
+            <a href="#home" class="hover:text-blue-500 block">Home</a>
+            <a href="#about" class="hover:text-blue-500 block">About Me</a>
+            <a href="#research" class="hover:text-blue-500 block">Research</a>
+            <a href="#publications" class="hover:text-blue-500 block">Publications</a>
+            <a href="#skills" class="hover:text-blue-500 block">Skills</a>
+            <a href="#contact" class="hover:text-blue-500 block">Contact</a>
+            <a
+                href="MirzaNiazMorshedResume.pdf"
+                target="_blank"
+                class="text-white-600 border border-gray-600 px-4 py-2 rounded-lg hover:bg-blue-100 hover:text-blue-800 transition block"
+            >
+                Download CV
             </a>
         </div>
-        <span class="text-gray-400 sm:ml-4">| 2024 All rights reserved.</span>
+        <button id="mbl-btn">
+            <i class="fas fa-bars block sm:hidden" id="toggler"></i>
+        </button>
+    </div>
+</nav>
+
+<!-- About Section -->
+<section id="about" class="flex flex-wrap items-center py-20 pb-10 px-4">
+    <div class="w-full md:w-1/2 px-5">
+        <h4 class="text-gray-400 text-lg font-semibold">BSc Student & Aspiring AI Researcher</h4>
+        <h1 class="text-white text-4xl font-extrabold mt-3">Hi, I'm Mirza Niaz Morshed</h1>
+        <p class="mt-4 text-gray-300 text-xl leading-relaxed">
+            Final-year undergraduate (BSc in Computer Science & Engineering) specializing in Artificial Intelligence, passionate about deep learning, computer vision, and data science research. I have gained solid experience in AI through academic coursework and hands-on projects focused on developing intelligent solutions with machine learning techniques to solve real-world problems that matter. As I prepare for doctoral-level research, I am excited to contribute to advances in AI that positively impact society and foster interdisciplinary collaboration.
+        </p>
+        <div class="flex gap-4 mt-6">
+            <a href="https://linkedin.com/in/mirzaniazmorshed" target="_blank" class="block">
+                <button class="bg-gray-500 px-6 py-2 rounded-lg text-white hover:bg-blue-600 transition">
+                    Let's Connect
+                </button>
+            </a>
+            <a href="https://github.com/mirzaniazmorshed" target="_blank" class="block">
+                <button class="bg-gray-500 px-6 py-2 rounded-lg text-white hover:bg-green-600 transition">
+                    GitHub
+                </button>
+            </a>
+        </div>
+    </div>
+
+    <div class="w-full md:w-1/2 px-5 mt-2 sm:mt-0">
+        <img
+            src="niaz.jpg"
+            alt="Portrait of Mirza Niaz Morshed"
+            class="rounded-lg mx-auto w-50"
+        />
+    </div>
+</section>
+
+     <!-- Research/Preprint Section -->
+<section id="research" class="py-12 px-4 bg-black">
+    <h2 class="text-3xl font-bold text-white mb-5">Research & Preprints</h2>
+    <ul class="max-w-4xl mx-auto space-y-4 text-gray-300 list-disc list-inside">
+        <li>
+            <span class="font-semibold text-white">"A State-of-the-Art Review of One-Pixel Attack in Computer Vision"</span>,
+            <em>Preprint available, under review at The Journal of Engineering</em>.
+            <a href="https://www.authorea.com/users/942913/articles/1313052-a-state-of-the-art-review-of-one-pixel-attack-in-computer-vision" target="_blank" class="underline hover:text-blue-400">[View Preprint]</a>
+        </li>
+        <!-- Add more preprints here if you have in the future -->
+    </ul>
+</section>
+
+<!-- Certifications Section -->
+<section id="certifications" class="py-12 px-4 bg-black">
+    <h2 class="text-3xl font-bold text-white mb-5">Certifications</h2>
+    <ul class="max-w-3xl mx-auto space-y-8 text-gray-300 list-disc list-inside">
+         <li>
+            <span class="font-semibold text-white">AI Mastery Bootcamp</span> — 
+            Udemy<br>
+            <span class="text-sm">Skills: Machine Learning, Deep Learning, Computer Vision, Data Science, Python, LLM.</span><br>
+            <a href="https://www.udemy.com/certificate/UC-f3e1a5dd-f5cd-416a-954c-efe4b43fb882/" target="_blank" class="underline hover:text-blue-400">Show credential</a>
+        </li>
+
+        <li>
+            <span class="font-semibold text-white">Getting Started with AI and Machine Learning</span> — 
+            LinkedIn<br>
+            <span class="text-sm">Skills: Machine Learning, Deep Learning, Computer Vision, Python.</span><br>
+            <a href="https://www.linkedin.com/learning/certificates/9d1ac2f9aa922d575b838311802b7ae11296528f827cc4557caf6eea6ee3a13f" target="_blank" class="underline hover:text-blue-400">Show credential</a>
+        </li>
+
+        <li>
+            <span class="font-semibold text-white">Advanced AI: Transformers for Computer Vision</span> — 
+            National Association of State Boards of Accountancy (NASBA)<br>
+            <span class="text-sm">Skills: Transformer Models, Generative AI, GANs.</span><br>
+            <a href="https://www.linkedin.com/learning/certificates/d691309d32972b0b49a20e945c55c74d0afbcded7c40715893076e3308c82342?trk=share_certificate" target="_blank" class="underline hover:text-blue-400">Show credential</a>
+        </li>
+
+        <li>
+            <span class="font-semibold text-white">Predictive Analytics Essential Training: Data Mining</span> — 
+            International Institute of Business Analysis™ (IIBA®)<br>
+            <a href="https://www.linkedin.com/learning/certificates/0bef030df2e22c25f281b8cf704c0db9aa124f17791995456e38dc00a69709db?trk=share_certificate" target="_blank" class="underline hover:text-blue-400">Show credential</a>
+        </li>
+
+        <li>
+            <span class="font-semibold text-white">Data Science Foundations: Fundamentals</span> — 
+            LinkedIn<br>
+            <span class="text-sm">Skills: Statistical Data Analysis, Data Science, Python.</span><br>
+            <a href="https://www.linkedin.com/learning/certificates/1375add56a161c0f916478d808cc8b23fc464ab0a04b0d40ac5ebee0ec177854" target="_blank" class="underline hover:text-blue-400">Show credential</a>
+        </li>
+
+        <li>
+            <span class="font-semibold text-white">Learning Infographic Design</span> — 
+            Killer Visual Strategies<br>
+            <span class="text-sm">Skills: Information Graphics.</span><br>
+            <a href="https://www.linkedin.com/learning/certificates/d1dc5cd83ec27789e93c17b86b5d6b380d3ef68ec55eca95ffd101353529ac5e" target="_blank" class="underline hover:text-blue-400">Show credential</a>
+        </li>
+
+    </ul>
+</section>
+
+
+
+<!-- Projects Section -->
+<section id="projects" class="py-12 px-4 bg-black">
+
+    <h2 class="text-3xl font-bold text-white mb-5">Selected Projects</h2>
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-10">
+        
+        <!-- Project 1: Moneta Flow -->
+        <div class="bg-gray-900 p-5 rounded-lg border border-gray-700">
+            <h3 class="text-xl font-semibold text-white">Moneta Flow</h3>
+            <p class="text-gray-300 mt-2">
+                Brief description of this project highlighting your main contribution and the technologies used.
+                <br>
+                <a href="https://github.com/mirzaniazmorshed/MonetaFlow" target="_blank" class="underline hover:text-green-400">[View]</a>
+            </p>
+        </div>
+
+        <!-- Project 2: Haus Of Books -->
+        <div class="bg-gray-900 p-5 rounded-lg border border-gray-700">
+            <h3 class="text-xl font-semibold text-white">Haus Of Books</h3>
+            <p class="text-gray-300 mt-2">
+                Brief description of this project highlighting your main contribution and the technologies used.
+                <br>
+                <a href="https://github.com/mirzaniazmorshed/HausOfBooks" target="_blank" class="underline hover:text-green-400">[View]</a>
+            </p>
+        </div>
+
+        <!-- Project 3: Car Sphere -->
+        <div class="bg-gray-900 p-5 rounded-lg border border-gray-700">
+            <h3 class="text-xl font-semibold text-white">CarSphere</h3>
+            <p class="text-gray-300 mt-2">
+                Brief description of this project highlighting your main contribution and the technologies used.
+                <br>
+                <a href="https://github.com/mirzaniazmorshed/CarSphere" target="_blank" class="underline hover:text-green-400">[View]</a>
+            </p>
+        </div>
+
+        <!-- Project 4: Home4Paws -->
+        <div class="bg-gray-900 p-5 rounded-lg border border-gray-700">
+            <h3 class="text-xl font-semibold text-white">Home4Paws</h3>
+            <p class="text-gray-300 mt-2">
+                Brief description of this project highlighting your main contribution and the technologies used.
+                <br>
+                <a href="https://github.com/mirzaniazmorshed/Home4Paws" target="_blank" class="underline hover:text-green-400">[View]</a>
+            </p>
+        </div>
+
+        <!-- Project 5: Musicians Directory -->
+        <div class="bg-gray-900 p-5 rounded-lg border border-gray-700">
+            <h3 class="text-xl font-semibold text-white">Musicians Directory</h3>
+            <p class="text-gray-300 mt-2">
+                Brief description of this project highlighting your main contribution and the technologies used.
+                <br>
+                <a href="https://github.com/mirzaniazmorshed/MusiciansDirectory" target="_blank" class="underline hover:text-green-400">[View]</a>
+            </p>
+        </div>
+
+        <!-- Project 6: DentiCare -->
+        <div class="bg-gray-900 p-5 rounded-lg border border-gray-700">
+            <h3 class="text-xl font-semibold text-white">DentiCare</h3>
+            <p class="text-gray-300 mt-2">
+                Brief description of this project highlighting your main contribution and the technologies used.
+                <br>
+                <a href="https://github.com/mirzaniazmorshed/DentiCare" target="_blank" class="underline hover:text-green-400">[View]</a>
+            </p>
+        </div>
+
+    </div>
+</section>
+
+
+
+
+
+
+        <!-- Skills Section -->
+<section id="skills" class="py-20 pb-10 bg-black px-4">
+    <h2 class="text-3xl font-bold text-white mb-8 text-center">Skills & Tools</h2>
+    <div class="max-w-3xl mx-auto grid grid-cols-2 sm:grid-cols-3 gap-6 text-center">
+        <div>
+            <p class="font-semibold text-white">Python</p>
+        </div>
+        <div>
+            <p class="font-semibold text-white">TensorFlow / PyTorch</p>
+        </div>
+        <div>
+            <p class="font-semibold text-white">Machine Learning</p>
+        </div>
+        <div>
+            <p class="font-semibold text-white">Deep Learning</p>
+        </div>
+        <div>
+            <p class="font-semibold text-white">Computer Vision</p>
+        </div>
+        <div>
+            <p class="font-semibold text-white">Data Analysis</p>
+        </div>
+        <div>
+            <p class="font-semibold text-white">Research Methods</p>
+        </div>
+        <div>
+            <p class="font-semibold text-white">Git & GitHub</p>
+        </div>
+        <div>
+            <p class="font-semibold text-white">LaTeX</p>
+        </div>
+    </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="py-20 pb-10 bg-black text-center px-4">
+    <h2 class="text-3xl font-bold text-white mb-5">Contact Me</h2>
+    <p class="text-gray-400 mb-8 max-w-xl mx-auto">
+        Feel free to reach out via email or LinkedIn for research collaboration, questions, or opportunities.
+    </p>
+    <div class="space-x-4">
+        <a href="mailto:your.email@example.com" class="text-blue-500 hover:underline">mirzaniazmorshed7@gmail.com</a> |
+        <a href="https://linkedin.com/in/mirzaniazmorshed" target="_blank" class="text-blue-500 hover:underline">LinkedIn</a>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer
+    class="flex flex-col sm:flex-row justify-between items-center py-5 border-t border-gray-700 px-4 space-y-4 sm:space-y-0"
+>
+    <div class="text-gray-400 text-center sm:text-left">
+        &copy; 2024 Mirza Niaz Morshed. All rights reserved.
+    </div>
+    <div class="flex space-x-4 text-center">
+        <a href="https://github.com/mirzaniazmorshed" target="_blank" class="text-gray-400 hover:text-white">
+            <i class="fab fa-github"></i> GitHub
+        </a>
+        <a href="https://linkedin.com/in/mirzaniazmorshed" target="_blank" class="text-gray-400 hover:text-white">
+            <i class="fab fa-linkedin"></i> LinkedIn
+        </a>
     </div>
 </footer>
 
-
-    </div>
-    <script src="index.js"></script>
+</div>
+<script src="index.js"></script>
 </body>
-
 </html>
+
